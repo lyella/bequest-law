@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=11">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <title></title>
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -15,14 +15,19 @@
 
 <body>
   <header class="header"> <a class="header__logo" href="https://bequestlaw.com/https://bequestlaw.com/"><img
-        src="img/bequest-logo.png" alt="Bequest Law Estatate Planning Firm Logo"></a>
+        src="./img/bequest-logo.png" alt="Bequest Law Estatate Planning Firm Logo"></a>
     <div class="header-menu__btn js-header-menu__btn">
       <div class="header-menu__btn-shape"></div>
       <div class="header-menu__btn-shape"></div>
       <div class="header-menu__btn-shape"></div>
     </div>
-    <div class="header-nav"><a class="header-nav__link" href="">HOME</a>
-      <div class="header-nav__link">SERVICES <div class="header-nav__submenu">
+    <div class="header-nav"><a class="header-nav__link" href="">
+        <p>HOME</p>
+      </a>
+      <div class="header-nav__link">
+        <p>SERVICES </p>
+        <div class="arrow"></div>
+        <div class="header-nav__submenu">
           <div class="header-nav__submenu-link-container"><a class="header-nav__submenu-link" href="">
               <h3>Wills and Trusts</h3>
             </a><a class="header-nav__submenu-link" href="">
@@ -37,63 +42,82 @@
               <h3>Equine</h3>
             </a></div>
         </div>
-      </div><a class="header-nav__link" href="">ABOUT US</a><a class="header-nav__link" href="">CONTACT US</a>
-    </div>
-    <div class="header-menu js-header-menu">
-      <div class="header-menu__contacts"> <a class="header-menu__contacts-item" href="">090-0000-0000</a><a
-          class="header-menu__contacts-item" href="">Web面談申し込み</a></div><a class="header-menu__link"
-        href="">トップページ</a><a class="header-menu__link" href="">証券訴訟募集</a><a class="header-menu__link"
-        href="">証券訴訟FAQ</a><a class="header-menu__link" href="">法人のお客様へ</a>
-      <div class="header-menu__link header-menu__link--s2">
-        <p>事務所・弁護士紹介</p>
-        <div class="header-menu__submenu">
-          <div class="header-menu__submenu-link-container"><a class="header-menu__submenu-link" href="">
-              <h3>ご挨拶</h3>
-            </a><a class="header-menu__submenu-link" href="">
-              <h3>弁護士紹介</h3>
-            </a><a class="header-menu__submenu-link" href="">
-              <h3>事務所のご案内</h3>
-            </a></div>
+      </div><a class="header-nav__link" href="">
+        <p>ABOUT US</p>
+      </a><a class="header-nav__link" href="">
+        <p>CONTACT US</p>
+      </a>
+      <div class="header-nav__link">
+        <div class="header__search">
+          <form class="group searchform"> <input id="search-box" type="search" placeholder="SEARCH"> <label
+              for="search-box"><span class="fa fa-search"></span></label> </form>
         </div>
-      </div><a class="header-menu__link" href="">取扱業務</a><a class="header-menu__link" href="">コラム／お知らせ</a>
-      <div class="header-menu__others" href="">
-        <div class="header-menu__socials"><a class="header-menu__socials-link" href=""> </a><a
-            class="header-menu__socials-link" href=""> </a></div>
-        <div class="header-menu__more"><a class="header-menu__more-link" href="">サイトマップ</a><a
-            class="header-menu__more-link" href="">プライバシーポリシー</a></div>
+      </div><a class="header-nav__link header-nav__link--dropdown" href="tel:703-731-9510">
+        <div class="header__consultation">
+          <h3 class="header__consultation-text">FREE CONSULTATION </h3>
+          <h5 class="header__consultation-num">703-731-9510</h5>
+        </div>
+      </a>
+    </div>
+    <div class="header-menu js-header-menu"><a class="header-menu__contacts" href="tel:703-731-9510">
+        <div class="header__consultation">
+          <h3 class="header__consultation-text">FREE CONSULTATION </h3>
+          <h5 class="header__consultation-num">703-731-9510</h5>
+        </div>
+      </a><a class="header-menu__link" href="">HOME</a>
+      <div class="header-menu__dropdown">
+        <div class="header-menu__dropdown-item js-sub-item">
+          <div class="header-menu__dropdown-link js-link-item">
+            <div class="header-menu__link">SERVICES</div><img
+              class="wills-trusts__faq-arrow wills-trusts__faq-arrow--small" src="./img/icons/faq-arrow.svg"
+              alt="arrow down">
+          </div>
+          <div class="header-menu__sub-link"><a class="header-menu__link header-menu__link--sub" href="">Wills and
+              Trusts</a><a class="header-menu__link header-menu__link--sub" href="">Probate and Trust
+              Administration</a><a class="header-menu__link header-menu__link--sub" href="">Elder Law Planning</a><a
+              class="header-menu__link header-menu__link--sub" href="">Bequest</a><a
+              class="header-menu__link header-menu__link--sub" href="">Business</a><a
+              class="header-menu__link header-menu__link--sub" href="">Equine</a></div>
+        </div>
+      </div><a class="header-menu__link" href="">ABOUT US</a><a class="header-menu__link" href="">CONTACT US</a>
+      <div class="header-menu__link">
+        <div class="header__search">
+          <form class="searchform"> <input id="search-box" type="search" placeholder="SEARCH"> <label
+              for="search-box"><span class="fa fa-search"></span></label> </form>
+        </div>
       </div>
     </div>
   </header>
   <section class="slideshow" id="slideshow">
-    <figure><img class="slide-1" src="img/slideshow/slide-1.jpg" alt="Slider 1">
+    <figure><img class="slide-1" src="./img/slideshow/slide-1.jpg" alt="Slider 1">
       <figcaption>
         <h1>Lorem ipsum dolor sit amet.</h1>
-        <h2>heydsdsds</h2>
+        <h2>sample</h2>
         <p>Suspendisse varius congue velit, vel viverra diam fermentum eget.</p>
       </figcaption>
     </figure>
-    <figure><img class="slide-2" src="img/slideshow/slide-2.jpg" alt="Slider 2">
-      <figcaption>
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <h2>Suspendisse varius congue velit, vel viverra diam fermentum eget.</h2>
-        <p>Suspendisse varius congue velit, vel viverra diam fermentum eget.</p>
-      </figcaption>
-    </figure>
-    <figure><img class="slide-3" src="img/slideshow/slide-3.jpg" alt="Slider 3">
+    <figure><img class="slide-2" src="./img/slideshow/slide-2.jpg" alt="Slider 2">
       <figcaption>
         <h1>Lorem ipsum dolor sit amet.</h1>
         <h2>Suspendisse varius congue velit, vel viverra diam fermentum eget.</h2>
         <p>Suspendisse varius congue velit, vel viverra diam fermentum eget.</p>
       </figcaption>
     </figure>
-    <figure><img class="slide-4" src="img/slideshow/slide-4.jpg" alt="Slider 4">
+    <figure><img class="slide-3" src="./img/slideshow/slide-3.jpg" alt="Slider 3">
       <figcaption>
         <h1>Lorem ipsum dolor sit amet.</h1>
         <h2>Suspendisse varius congue velit, vel viverra diam fermentum eget.</h2>
         <p>Suspendisse varius congue velit, vel viverra diam fermentum eget.</p>
       </figcaption>
     </figure>
-    <figure><img src="img/slideshow/slide-5.jpg" alt="Slider 5">
+    <figure><img class="slide-4" src="./img/slideshow/slide-4.jpg" alt="Slider 4">
+      <figcaption>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h2>Suspendisse varius congue velit, vel viverra diam fermentum eget.</h2>
+        <p>Suspendisse varius congue velit, vel viverra diam fermentum eget.</p>
+      </figcaption>
+    </figure>
+    <figure><img src="./img/slideshow/slide-5.jpg" alt="Slider 5">
       <figcaption>
         <h1>Lorem ipsum dolor sit amet.</h1>
         <h2>Suspendisse varius congue velit, vel viverra diam fermentum eget.</h2>
@@ -108,7 +132,7 @@
       </div>
       <div class="top__services-container">
         <div class="top__services-cards"><a class="top__services-card" href="#">
-            <div class="top__services-image"><img src="img/service-1.jpeg" alt="Slider 5"></div>
+            <div class="top__services-image"><img src="./img/service-1.jpeg" alt="Slider 5"></div>
             <h3 class="top__services-card-title-large">Wills &amp; Trusts</h3>
             <h5 class="top__services-card-title-small">Wills &amp; Trusts</h5>
             <p class="top__services-card-description">A Will and a Trust are some of the most important documents you
@@ -119,7 +143,7 @@
                       class="shaft"></span></span></span></div>
             </div>
           </a><a class="top__services-card" href="#">
-            <div class="top__services-image"><img src="img/service-1.jpeg" alt="Slider 5"></div>
+            <div class="top__services-image"><img src="./img/service-1.jpeg" alt="Slider 5"></div>
             <h3 class="top__services-card-title-large">Probate &amp; Trust Administration</h3>
             <h5 class="top__services-card-title-small">Probate &amp; Trust Administration</h5>
             <p class="top__services-card-description">Transfers your assets upon your demise under government
@@ -130,7 +154,7 @@
                       class="shaft"></span></span></span></div>
             </div>
           </a><a class="top__services-card" href="#">
-            <div class="top__services-image"><img src="img/service-1.jpeg" alt="Slider 5"></div>
+            <div class="top__services-image"><img src="./img/service-1.jpeg" alt="Slider 5"></div>
             <h3 class="top__services-card-title-large">Elder Law Planning</h3>
             <h5 class="top__services-card-title-small">Elder Law Planning</h5>
             <p class="top__services-card-description">Elder Law encompasses a wide range of legal concerns all of which
@@ -142,7 +166,7 @@
                       class="shaft"></span></span></span></div>
             </div>
           </a><a class="top__services-card" href="#">
-            <div class="top__services-image"><img src="img/service-1.jpeg" alt="Slider 5"></div>
+            <div class="top__services-image"><img src="./img/service-1.jpeg" alt="Slider 5"></div>
             <h3 class="top__services-card-title-large">Business Planning</h3>
             <h5 class="top__services-card-title-small">Business Planning</h5>
             <p class="top__services-card-description">Positioning your business for transfer to either your heirs or to
@@ -153,7 +177,7 @@
                       class="shaft"></span></span></span></div>
             </div>
           </a><a class="top__services-card" href="#">
-            <div class="top__services-image"><img src="img/service-1.jpeg" alt="Slider 5"></div>
+            <div class="top__services-image"><img src="./img/service-1.jpeg" alt="Slider 5"></div>
             <h3 class="top__services-card-title-large">Bequest</h3>
             <h5 class="top__services-card-title-small">Bequest</h5>
             <p class="top__services-card-description">A bequest is a gift upon your demise either under a will or a
@@ -164,7 +188,7 @@
                       class="shaft"></span></span></span></div>
             </div>
           </a><a class="top__services-card" href="#">
-            <div class="top__services-image"><img src="img/service-1.jpeg" alt="Slider 5"></div>
+            <div class="top__services-image"><img src="./img/service-1.jpeg" alt="Slider 5"></div>
             <h3 class="top__services-card-title-large">Equine Planning</h3>
             <h5 class="top__services-card-title-small">Equine Planning</h5>
             <p class="top__services-card-description">Whether your horse or horses are considered pets, family members,
@@ -180,20 +204,20 @@
     </section>
     <section class="top__badges">
       <div class="slider-js-badges top__badges-slider">
-        <div class="top__badges-image"><img src="img/placeholder-250x250.jpeg" alt=""></div>
-        <div class="top__badges-image"><img src="img/placeholder-250x250.jpeg" alt=""></div>
-        <div class="top__badges-image"><img src="img/placeholder-250x250.jpeg" alt=""></div>
-        <div class="top__badges-image"><img src="img/placeholder-250x250.jpeg" alt=""></div>
-        <div class="top__badges-image"><img src="img/placeholder-250x250.jpeg" alt=""></div>
-        <div class="top__badges-image"><img src="img/placeholder-250x250.jpeg" alt=""></div>
+        <div class="top__badges-image"><img src="./img/placeholder-250x250.jpeg" alt=""></div>
+        <div class="top__badges-image"><img src="./img/placeholder-250x250.jpeg" alt=""></div>
+        <div class="top__badges-image"><img src="./img/placeholder-250x250.jpeg" alt=""></div>
+        <div class="top__badges-image"><img src="./img/placeholder-250x250.jpeg" alt=""></div>
+        <div class="top__badges-image"><img src="./img/placeholder-250x250.jpeg" alt=""></div>
+        <div class="top__badges-image"><img src="./img/placeholder-250x250.jpeg" alt=""></div>
       </div>
       <div class="top__badges-custom-nav">
-        <div class="carousel--prev"><img src="img/icons/arrow-right.png" alt=""></div>
+        <div class="carousel--prev"><img src="./img/icons/arrow-right.png" alt=""></div>
         <div class="top__badges-custom-wrap">
           <div class="top__badges-slider-index"></div>
           <div class="top__badges-slider-array"></div>
         </div>
-        <div class="carousel--next"><img src="img/icons/arrow-right.png" alt=""></div>
+        <div class="carousel--next"><img src="./img/icons/arrow-right.png" alt=""></div>
       </div>
     </section>
   </div>
@@ -221,7 +245,7 @@
       </div>
     </div>
     <div class="top__about-wrapper">
-      <div class="top__about-image"><img src="img/about-image.jpg" alt="About Us">
+      <div class="top__about-image"><img src="./img/about-image.jpg" alt="About Us">
         <div class="top__about-button-container top__about-button-container--image"><a class="button-about"
             href="/"><span>All Our Attorneys Are Vaccinated &amp; We're Accepting New Cases</span></a></div>
       </div>
@@ -250,7 +274,7 @@
       </div>
     </div>
     <div class="top__about-wrapper">
-      <div class="top__about-image"><img src="img/about-image.jpg" alt="About Us"></div>
+      <div class="top__about-image"><img src="./img/about-image.jpg" alt="About Us"></div>
     </div>
   </div>
   <div class="banner banner--contact">
@@ -258,7 +282,7 @@
       <h1>Contact Us</h1>
       <p>GIVE US A CALL OR SEND US AN EMAIL</p>
     </div>
-    <div class="banner__wrapper"><a class="button button--white" href="/"><span>CONTACT</span></a></div>
+    <div class="banner__wrapper-btn"><a class="button button--white" href="/"><span>CONTACT</span></a></div>
   </div>
   <div class="top__planning">
     <div class="top__planning-wrapper">
@@ -268,14 +292,14 @@
           and Fairfax County.</p>
       </div>
       <div class="top__planning-info-wrapper">
-        <div class="top__planning-info"><img src="img/planning-logo1.png" alt="">
+        <div class="top__planning-info"><img src="./img/planning-logo1.png" alt="">
           <h1 class="top__planning-title top__planning-title--small">Years of Experience</h1>
           <div class="top__planning-text top__planning-text--small">We have over 30 years of estate planning experience
             in Loudoun County in preparing wills and trusts and probate and trust administration. Helping Clients
             Succeed You have spent a lifetime, providing for your family. Let us help you prepare an estate plan to
             provide for your</div>
         </div>
-        <div class="top__planning-info top__planning-info--second"><img src="img/planning-logo2.png" alt="">
+        <div class="top__planning-info top__planning-info--second"><img src="./img/planning-logo2.png" alt="">
           <h1 class="top__planning-title top__planning-title--small">Helping Clients Succeed</h1>
           <p class="top__planning-text top__planning-text--small">You have spent a lifetime, providing for your family.
             Let us help you prepare an estate plan to provide for your loved ones upon your demise.</p>
@@ -284,7 +308,7 @@
     </div>
     <div class="top__planning-wrapper top__planning-wrapper--second">
       <div class="top__planning-title">Warren Grossman<a class="top__planning-image" href="/"><img
-            src="img/warrenheadcasual.png" alt="Warren Grossman">
+            src="./img/warrenheadcasual.png" alt="Warren Grossman">
           <h1 class="top__planning-title top__planning-title--small">Lorem ipsum dolor sit amet, consectetur adipiscing
             elit.</h1>
         </a></div>
@@ -293,24 +317,67 @@
   <div class="banner banner--org">
     <div class="banner__wrapper">
       <h1>ORGANIZATIONS</h1>
-      <div class="banner__org-logo-wrapper"><a class="banner__org-logo" href="/"><img src="img/sample-logo-square.png"
-            alt=""></a><a class="banner__org-logo" href="/"><img src="img/sample-logo-square.png" alt=""></a><a
-          class="banner__org-logo" href="/"><img src="img/sample-logo-square.png" alt=""></a><a
-          class="banner__org-logo" href="/"><img src="img/sample-logo-square.png" alt=""></a></div>
+      <div class="banner__org-logo-wrapper"><a class="banner__org-logo" href="/"><img src="./img/sample-logo-square.png"
+            alt=""></a><a class="banner__org-logo" href="/"><img src="./img/sample-logo-square.png" alt=""></a><a
+          class="banner__org-logo" href="/"><img src="./img/sample-logo-square.png" alt=""></a><a
+          class="banner__org-logo" href="/"><img src="./img/sample-logo-square.png" alt=""></a></div>
     </div>
   </div>
   <div class="top__contact">
     <div class="title-subheading">
-      <h1>BEQUEST LAW, PLC </h1>
+      <h1>BEQUEST LAW, PLC</h1>
+    </div>
+    <div class="contact-lower">
+      <div class="contact-lower__container">
+        <div class="contact-lower__wrap">
+          <div class="contact-lower__info"><img class="contact-lower__image" src="./img/bequest-logo.png"
+              alt="BEQUEST LAW LOGO">
+            <div class="contact-lower__address-wrap">
+              <p class="contact-lower__address">116-M Edwards Ferry Road NE <br> Leesburg, VA 20176</p>
+              <div class="contact-lower__address contact-lower__address--small"> <a href="tel:(703) 443-2300">Local
+                  Phone: (703) 443-2300</a></div>
+            </div>
+            <div class="contact-lower__address-wrap">
+              <p class="contact-lower__address">CALL US:</p>
+              <div class="contact-lower__address contact-lower__address--big"> <a href="tel:(703) 443-2300">(703)
+                  443-2300</a></div>
+            </div>
+            <div class="contact-lower__address-wrap">
+              <p class="contact-lower__address">EMAIL US:</p>
+              <div class="contact-lower__address contact-lower__address--medium"> <a
+                  href="mailto:advice@bequestlaw.com">advice@bequestlaw.com</a></div>
+            </div>
+          </div>
+          <div class="contact-lower__form">
+            <h1 class="contact-lower__address contact-lower__address--form-title">Contact us today for a free case
+              evaluation</h1>
+            <div class="contact-lower__form-wrap"> <input class="contact-lower__textbox contact-lower__textbox--small"
+                id="name" type="text" name="name" placeholder="YOUR NAME*"> <input
+                class="contact-lower__textbox contact-lower__textbox--small" id="phone" type="text" name="phone"
+                placeholder="YOUR PHONE NUMBER*"> </div>
+            <div class="contact-lower__form-wrap"> <input class="contact-lower__textbox contact-lower__textbox--small"
+                id="email" type="email" name="email" placeholder="YOUR EMAIL*"> </div>
+            <div class="contact-lower__form-wrap"><textarea class="contact-lower__textarea" id="inquiry" name="inquiry"
+                ,="" cols="50" rows="50" placeholder="HOW CAN WE HELP YOU?"></textarea></div>
+            <div class="contact-lower__form-button-container"><a class="button-contact" href="/"><span>SEND US A
+                  MESSAGE</span></a></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <footer class="footer">
     <div class="footer__container">
-      <div class="footer__section"><a href="#"> <img src="img/bequest-logo.png" alt="BEQUEST LAW LOGO"></a>
+      <div class="footer__section"><a href="#"><img class="footer__image" src="./img/bequest-logo.png"
+            alt="BEQUEST LAW LOGO"></a>
         <p class="footer__about">Attorney Grossman uses a wide range of wills, trusts, and other estate planning
           instruments in coordination with your wishes, to assure that you’ll be able to effectively plan for your
           family’s secure, assured and protected future. From asset distribution plans to probate assistance, Attorney
           Grossman is here to help you and your family.</p>
+        <div class="footer__socmed"><a class="fb" href=""><img src="./img/icons/fb-logo.png" alt="Facebook"></a><a
+            class="twt" href=""><img src="./img/icons/twitter-logo.png" alt="Twitter"></a><a class="ig" href=""><img
+              src="./img/icons/ig-logo.png" alt="Instagram"></a><a class="ln" href=""><img src="./img/icons/ln-logo.png"
+              alt="LinkedIn"></a><a class="yt" href=""> <img src="./img/icons/yt-logo.png" alt="Youtube"></a></div>
       </div>
       <div class="footer__section">
         <div class="footer__title">IMPORTANT LINKS</div>
@@ -333,12 +400,15 @@
       </div>
       <div class="footer__section">
         <div class="footer__title">BEQUEST LAW</div>
-        <div class="footer__section-wrap"><a class="footer__contact" href="#">
-            <p class="footer__section-text">116-M Edwards Ferry Road NE<br>Leesburg, VA 20176</p>
-          </a><a class="footer__contact" href="tel: (703) 443-2300">
+        <div class="footer__section-wrap"><a class="footer__contact" href="tel: (703) 443-2300"> <img
+              src="./img/icons/tel-logo.png" alt="BEQUEST LAW LOGO">
             <p class="footer__section-text">(703) 443-2300</p>
-          </a><a class="footer__contact" href="mailto: wgrossman@bequestlaw.com">
+          </a><a class="footer__contact" href="mailto: wgrossman@bequestlaw.com"> <img src="./img/icons/mail-logo.png"
+              alt="BEQUEST LAW LOGO">
             <div class="footer__section-text">wgrossman@bequestlaw.com</div>
+          </a><a class="footer__contact" href="#"> <img src="./img/icons/location-logo.png" alt="BEQUEST LAW LOGO">
+            <p class="footer__section-text">116-M Edwards Ferry Road NE<br>Leesburg, VA 20176<br><br><span
+                class="underline">GET DIRECTIONS</span></p>
           </a></div>
       </div>
     </div>
@@ -349,18 +419,15 @@
       </div>
     </div>
   </footer>
-  <div class="response">
-    <div class="arrow-top"><img src="img/icons/arrow-top.png" alt="Go to top"></div><a class="response__wrapper"
-      href="#">
+  <div class="response"> <a class="response__wrapper" href="#">
       <h1 class="response__text">Coronavirus Update</h1>
-      <div class="response__logo"><img src="img/warning.png" alt=""></div>
+      <div class="response__logo"><img src="./img/warning.png" alt=""></div>
       <h1 class="response__text">Our Response</h1>
-    </a>
-  </div>
-  <script src="ofi.min.8e98ee7a.js"></script>
+    </a></div>
+  <script src="/ofi.min.8e98ee7a.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
-  <script src="js/index.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
