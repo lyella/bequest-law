@@ -28,6 +28,7 @@ html {
   font-size: 10px;
   -webkit-font-feature-settings: "palt";
   font-feature-settings: "palt";
+  overflow-x: hidden;
 }
 @media screen and (max-width: 1200px) {
   html {
@@ -944,6 +945,7 @@ html {
 .header__consultation {
   width: 300px;
   height: 105px;
+  margin-right: -20px;
   background-color: #04143d;
   background-image: url(../img/pattern-01.png);
   display: -webkit-box;
@@ -965,6 +967,7 @@ html {
     width: 100%;
     height: 100px;
     margin-top: -17px;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -972,6 +975,7 @@ html {
     width: 100%;
     height: 100px;
     margin-top: -17px;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 1400px) and (min-width: 1025px) {
@@ -979,6 +983,7 @@ html {
     width: 100%;
     height: 100px;
     margin-top: -17px;
+    margin-right: 0;
   }
 }
 .header__consultation:hover {
@@ -2445,12 +2450,11 @@ html {
   transform: scale(1.1);
 }
 .top__contact {
-  margin: 80px auto -60px;
+  margin: 80px auto 0;
 }
 @media screen and (max-width: 767px) {
   .top__contact {
-    margin: 40px auto -30px;
-    padding: 0 4%;
+    margin: 40px auto 0;
   }
 }
 .slideshow#slideshow {
@@ -4269,7 +4273,7 @@ html {
 }
 @media screen and (max-width: 767px) {
   .contact-lower {
-    margin: 30px 0;
+    margin: 30px 0 0;
   }
 }
 .contact-lower__container {

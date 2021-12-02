@@ -1,357 +1,407 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=11">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-  <title></title>
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin>
-</head>
-
-<body>
-  <header class="header"> <a class="header__logo" href="https://bequestlaw.com/https://bequestlaw.com/"><img
-        src="./img/bequest-logo.png" alt="Bequest Law Estatate Planning Firm Logo"></a>
-    <div class="header-menu__btn js-header-menu__btn">
-      <div class="header-menu__btn-shape"></div>
-      <div class="header-menu__btn-shape"></div>
-      <div class="header-menu__btn-shape"></div>
-    </div>
-    <div class="header-nav"><a class="header-nav__link" href="">
-        <p>HOME</p>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin>
+    <title></title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="https://bequestlaw.com/https://bequestlaw.com/">
+        <img class="lazy" data-src="./img/bequest-logo.png" alt="Bequest Law Estatate Planning Firm Logo">
       </a>
-      <div class="header-nav__link">
-        <p>SERVICES </p>
-        <div class="arrow"></div>
-        <div class="header-nav__submenu">
-          <div class="header-nav__submenu-link-container"><a class="header-nav__submenu-link" href="">
-              <h3>Wills and Trusts</h3>
-            </a><a class="header-nav__submenu-link" href="">
-              <h3>Probate and Trust Administration</h3>
-            </a><a class="header-nav__submenu-link" href="">
-              <h3>Elder Law Planning</h3>
-            </a><a class="header-nav__submenu-link" href="">
-              <h3>Bequest</h3>
-            </a><a class="header-nav__submenu-link" href="">
-              <h3>Business</h3>
-            </a><a class="header-nav__submenu-link" href="">
-              <h3>Equine</h3>
-            </a></div>
-        </div>
-      </div><a class="header-nav__link" href="">
-        <p>ABOUT US</p>
-      </a><a class="header-nav__link" href="">
-        <p>CONTACT US</p>
-      </a>
-      <div class="header-nav__link">
-        <div class="header__search">
-          <form class="group searchform"> <input id="search-box" type="search" placeholder="SEARCH"> <label
-              for="search-box"><span class="fa fa-search"></span></label> </form>
-        </div>
-      </div><a class="header-nav__link header-nav__link--dropdown" href="tel:703-731-9510">
-        <div class="header__consultation">
-          <h3 class="header__consultation-text">FREE CONSULTATION </h3>
-          <h5 class="header__consultation-num">703-731-9510</h5>
-        </div>
-      </a>
-    </div>
-    <div class="header-menu js-header-menu"><a class="header-menu__contacts" href="tel:703-731-9510">
-        <div class="header__consultation">
-          <h3 class="header__consultation-text">FREE CONSULTATION </h3>
-          <h5 class="header__consultation-num">703-731-9510</h5>
-        </div>
-      </a><a class="header-menu__link" href="">HOME</a>
-      <div class="header-menu__dropdown">
-        <div class="header-menu__dropdown-item js-sub-item">
-          <div class="header-menu__dropdown-link js-link-item">
-            <div class="header-menu__link">SERVICES</div><img
-              class="wills-trusts__faq-arrow wills-trusts__faq-arrow--small" src="./img/icons/faq-arrow.svg"
-              alt="arrow down">
+      <div class="header-menu__btn js-header-menu__btn">
+        <div class="header-menu__btn-shape"></div>
+        <div class="header-menu__btn-shape"></div>
+        <div class="header-menu__btn-shape"></div>
+      </div>
+      <div class="header-nav">
+        <a class="header-nav__link" href="">
+          <p>HOME</p>
+        </a>
+        <div class="header-nav__link">
+          <p>SERVICES </p>
+          <div class="arrow"></div>
+          <div class="header-nav__submenu">
+            <div class="header-nav__submenu-link-container">
+              <a class="header-nav__submenu-link" href="">
+                <h3>Wills and Trusts</h3>
+              </a>
+              <a class="header-nav__submenu-link" href="">
+                <h3>Probate and Trust Administration</h3>
+              </a>
+              <a class="header-nav__submenu-link" href="">
+                <h3>Elder Law Planning</h3>
+              </a>
+              <a class="header-nav__submenu-link" href="">
+                <h3>Bequest</h3>
+              </a>
+              <a class="header-nav__submenu-link" href="">
+                <h3>Business</h3>
+              </a>
+              <a class="header-nav__submenu-link" href="">
+                <h3>Equine</h3>
+              </a>
+            </div>
           </div>
-          <div class="header-menu__sub-link"><a class="header-menu__link header-menu__link--sub" href="">Wills and
-              Trusts</a><a class="header-menu__link header-menu__link--sub" href="">Probate and Trust
-              Administration</a><a class="header-menu__link header-menu__link--sub" href="">Elder Law Planning</a><a
-              class="header-menu__link header-menu__link--sub" href="">Bequest</a><a
-              class="header-menu__link header-menu__link--sub" href="">Business</a><a
-              class="header-menu__link header-menu__link--sub" href="">Equine</a></div>
         </div>
-      </div><a class="header-menu__link" href="">ABOUT US</a><a class="header-menu__link" href="">CONTACT US</a>
-      <div class="header-menu__link">
-        <div class="header__search">
-          <form class="searchform"> <input id="search-box" type="search" placeholder="SEARCH"> <label
-              for="search-box"><span class="fa fa-search"></span></label> </form>
+        <a class="header-nav__link" href="">
+          <p>ABOUT US</p>
+        </a>
+        <a class="header-nav__link" href="">
+          <p>CONTACT US</p>
+        </a>
+        <div class="header-nav__link">
+          <div class="header__search">
+            <form class="group searchform">
+              <input id="search-box" type="search" placeholder="SEARCH">
+              <label for="search-box">
+                <span class="fa fa-search"></span>
+              </label>
+            </form>
+          </div>
+        </div>
+        <a class="header-nav__link" href="tel:703-731-9510">
+          <div class="header__consultation">
+            <h3 class="header__consultation-text">FREE CONSULTATION </h3>
+            <h5 class="header__consultation-num">703-731-9510</h5>
+          </div>
+        </a>
+      </div>
+      <div class="header-menu js-header-menu">
+        <a class="header-menu__contacts" href="tel:703-731-9510">
+          <div class="header__consultation">
+            <h3 class="header__consultation-text">FREE CONSULTATION </h3>
+            <h5 class="header__consultation-num">703-731-9510</h5>
+          </div>
+        </a>
+        <a class="header-menu__link" href="">HOME</a>
+        <div class="header-menu__dropdown">
+          <div class="header-menu__dropdown-item js-sub-item">
+            <div class="header-menu__dropdown-link js-link-item">
+              <div class="header-menu__link header-menu__link--dropdown">SERVICES</div>
+              <img class="wills-trusts__faq-arrow lazy wills-trusts__faq-arrow lazy--small" data-src="./img/icons/faq-arrow.svg" alt="arrow down">
+            </div>
+            <div class="header-menu__sub-link">
+              <a class="header-menu__link header-menu__link--sub" href="">Wills and Trusts</a>
+              <a class="header-menu__link header-menu__link--sub" href="">Probate and Trust Administration</a>
+              <a class="header-menu__link header-menu__link--sub" href="">Elder Law Planning</a>
+              <a class="header-menu__link header-menu__link--sub" href="">Bequest</a>
+              <a class="header-menu__link header-menu__link--sub" href="">Business</a>
+              <a class="header-menu__link header-menu__link--sub" href="">Equine</a>
+            </div>
+          </div>
+        </div>
+        <a class="header-menu__link" href="">ABOUT US</a>
+        <a class="header-menu__link" href="">CONTACT US</a>
+        <div class="header-menu__link">
+          <div class="header__search">
+            <form class="searchform">
+              <input id="search-box" type="search" placeholder="SEARCH">
+              <label for="search-box">
+                <span class="fa fa-search"></span>
+              </label>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="wills-trusts">
+      <div class="title-subheading" data-aos="fade-right">
+        <h1>Wills and Trusts</h1>
+      </div>
+      <div class="wills-trusts__wrapper">
+        <div class="wills-trusts__info" data-aos="fade-down">
+          <h1 class="title-section">Wills</h1>
+          <p class="wills-trusts__info-text"></p>
+          <p class="wills-trusts__info-text">A Will is an Estate planning tool that lets you decide how your assets will be distributed upon death. Within a Will you must appoint a Personal Representative (Executor) to handle the administration of your estate. The Executor will file your will with the probate court, file tax returns, pay creditors, and distribute your assets to the beneficiaries in your will. Minor children can have a guardian appointed for them within the will. A guardian will manage your assets, for the benefit of your children, if a trust has not been established. </p>
+          <h1 class="title-section">Trusts</h1>
+          <p class="wills-trusts__info-text"></p>
+          <p class="wills-trusts__info-text">Legal arrangements made by one person or an organization, that holds assets for the benefit of another. Trusts serve a similar purpose to a will, but provide more flexibility and options. There are many different kinds of trusts. Some of the most common are revocable trusts, which can be revoked or amended at any time. The most notable benefit of a trust is the ability to avoid the probate process. Similar to a will an administrator, called a trustee, must be appointed to manage the distribution of your assets.</p>
+          <div class="wills-trusts__faq">
+            <div class="js-faq-item wills-trusts__faq-item">
+              <div class="js-faq-item-question wills-trusts__faq-item-question">
+                <p class="wills-trusts__faq-question">Revocable Trust / Living Trust</p>
+                <img class="wills-trusts__faq-arrow lazy" data-src="./img/icons/faq-arrow.svg" alt="arrow down">
+              </div>
+              <div class="js-faq-item-answer wills-trusts__faq-item-answer">
+                <p class="wills-trusts__faq-answer">A Revocable Trust or a Living Trust can be amended at any time. </p>
+              </div>
+            </div>
+            <div class="js-faq-item wills-trusts__faq-item">
+              <div class="js-faq-item-question wills-trusts__faq-item-question">
+                <p class="wills-trusts__faq-question">Irrevocable Trust</p>
+                <img class="wills-trusts__faq-arrow lazy" data-src="./img/icons/faq-arrow.svg" alt="arrow down">
+              </div>
+              <div class="js-faq-item-answer wills-trusts__faq-item-answer">
+                <p class="wills-trusts__faq-answer">An Irrevocable Trust cannot be amended which better protects your assets than a revocable trust.</p>
+              </div>
+            </div>
+            <div class="js-faq-item wills-trusts__faq-item">
+              <div class="js-faq-item-question wills-trusts__faq-item-question">
+                <p class="wills-trusts__faq-question">Supplemental Needs Trust</p>
+                <img class="wills-trusts__faq-arrow lazy" data-src="./img/icons/faq-arrow.svg" alt="arrow down">
+              </div>
+              <div class="js-faq-item-answer wills-trusts__faq-item-answer">
+                <p class="wills-trusts__faq-answer">A Supplemental Needs Trust allows a disabled person to receive money without losing their eligibility for public benefit programs.</p>
+              </div>
+            </div>
+            <div class="js-faq-item wills-trusts__faq-item">
+              <div class="js-faq-item-question wills-trusts__faq-item-question">
+                <p class="wills-trusts__faq-question">Charitable Trust</p>
+                <img class="wills-trusts__faq-arrow lazy" data-src="./img/icons/faq-arrow.svg" alt="arrow down">
+              </div>
+              <div class="js-faq-item-answer wills-trusts__faq-item-answer">
+                <p class="wills-trusts__faq-answer">A Charitable Trust is a popular way to donate to charitable organizations. A grantor can transfer assets such as money, real estate or art to a charitable trust, and designate that they eventually be given to a specific organization.</p>
+              </div>
+            </div>
+          </div>
+          <div class="wills-trusts__diff" data-aos="fade-down">
+            <h1 class="primary title-heading">Differences Between a Will and Trust</h1>
+            <div class="wills-trusts__diff-wrap">
+              <div class="wills-trusts__diff-item">
+                <h1 class="title-section">Wills</h1>
+                <ul class="wills-trusts__list">
+                  <li class="wills-trusts__list-item">Singular purpose of distributing assets </li>
+                  <li class="wills-trusts__list-item">Goes into effect upon death</li>
+                  <li class="wills-trusts__list-item">Must pass through court-supervised Probate</li>
+                </ul>
+              </div>
+              <div class="wills-trusts__diff-item">
+                <h1 class="title-section">Trust</h1>
+                <ul class="wills-trusts__list">
+                  <li class="wills-trusts__list-item">Has more flexibility than a will</li>
+                  <li class="wills-trusts__list-item">Can go into effect while alive, upon death, or thereafter</li>
+                  <li class="wills-trusts__list-item">Normally does not pass through court-supervised probate</li>
+                  <li class="wills-trusts__list-item">Private due to the lack of the open probate process</li>
+                  <li class="wills-trusts__list-item">Multiple types of Trusts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wills-trusts__image-container" data-aos="fade-left">
+          <div class="wills-trusts__image">
+            <img class="lazy" data-src="./img/equine.jpg">
+          </div>
+          <div class="wills-trusts__title-wrap">
+            <div class="title-question">Frequently Asked <br>Questions </div>
+            <div class="wills-trusts__faq wills-trusts__faq--small">
+              <div class="js-faq-item wills-trusts__faq-item wills-trusts__faq-item--small">
+                <div class="js-faq-item-question wills-trusts__faq-item-question">
+                  <p class="wills-trusts__faq-question wills-trusts__faq-question--small">DO I NEED A WILL?</p>
+                  <img class="wills-trusts__faq-arrow lazy wills-trusts__faq-arrow lazy--small" data-src="./img/icons/faq-arrow.svg" alt="arrow down">
+                </div>
+                <div class="js-faq-item-answer wills-trusts__faq-item-answer">
+                  <p class="wills-trusts__faq-answer wills-trusts__faq-answer--small">A Will allows you to distribute your assets in accordance with your own wishes. It prevents the state courts from distributing your assets based on the default template.</p>
+                </div>
+              </div>
+            </div>
+            <div class="wills-trusts__faq wills-trusts__faq--small">
+              <div class="js-faq-item wills-trusts__faq-item wills-trusts__faq-item--small">
+                <div class="js-faq-item-question wills-trusts__faq-item-question">
+                  <p class="wills-trusts__faq-question wills-trusts__faq-question--small">WHAT KIND OF TRUST DO I NEED? </p>
+                  <img class="wills-trusts__faq-arrow lazy wills-trusts__faq-arrow lazy--small" data-src="./img/icons/faq-arrow.svg" alt="arrow down">
+                </div>
+                <div class="js-faq-item-answer wills-trusts__faq-item-answer">
+                  <p class="wills-trusts__faq-answer wills-trusts__faq-answer--smallThe">The type of trust will be determined based on your individual needs. This could include a supplemental needs trust for a disabled family member or a trust for the educational needs of children.</p>
+                </div>
+              </div>
+            </div>
+            <div class="wills-trusts__faq wills-trusts__faq--small">
+              <div class="js-faq-item wills-trusts__faq-item wills-trusts__faq-item--small">
+                <div class="js-faq-item-question wills-trusts__faq-item-question">
+                  <p class="wills-trusts__faq-question wills-trusts__faq-question--small">WHAT HAPPENS IF I DIE WITHOUT A WILL ?</p>
+                  <img class="wills-trusts__faq-arrow lazy wills-trusts__faq-arrow lazy--small" data-src="./img/icons/faq-arrow.svg" alt="arrow down">
+                </div>
+                <div class="js-faq-item-answer wills-trusts__faq-item-answer">
+                  <p class="wills-trusts__faq-answer wills-trusts__faq-answer--small">If you die intestate (without a will), Virginia laws will determine who receives your property by default. </p>
+                </div>
+              </div>
+            </div>
+            <div class="wills-trusts__faq wills-trusts__faq--small">
+              <div class="js-faq-item wills-trusts__faq-item wills-trusts__faq-item--small">
+                <div class="js-faq-item-question wills-trusts__faq-item-question">
+                  <p class="wills-trusts__faq-question wills-trusts__faq-question--small">WHAT DOES A WILL NOT DO?</p>
+                  <img class="wills-trusts__faq-arrow lazy wills-trusts__faq-arrow lazy--small" data-src="./img/icons/faq-arrow.svg" alt="arrow down">
+                </div>
+                <div class="js-faq-item-answer wills-trusts__faq-item-answer">
+                  <p class="wills-trusts__faq-answer wills-trusts__faq-answer--small">A Will does not dictate the distribution of certain types of assets. These are called non-probate property and will pass to someone other than your estate on your death.</p>
+                </div>
+              </div>
+            </div>
+            <div class="wills-trusts__faq wills-trusts__faq--small">
+              <div class="js-faq-item wills-trusts__faq-item wills-trusts__faq-item--small">
+                <div class="js-faq-item-question wills-trusts__faq-item-question">
+                  <p class="wills-trusts__faq-question wills-trusts__faq-question--small">CAN I REVOKE OR CANCEL MY LIVING TRUST?</p>
+                  <img class="wills-trusts__faq-arrow lazy wills-trusts__faq-arrow lazy--small" data-src="./img/icons/faq-arrow.svg" alt="arrow down">
+                </div>
+                <div class="js-faq-item-answer wills-trusts__faq-item-answer">
+                  <p class="wills-trusts__faq-answer wills-trusts__faq-answer--small">A living trust is revocable up to and before death. After death the living trust is now irrevocable.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </header>
-  <div class="wills-trusts">
-    <div class="title-subheading">
-      <h1>Wills and Trusts</h1>
-    </div>
-    <div class="wills-trusts__wrapper">
-      <div class="wills-trusts__info">
-        <h1 class="title-section">Wills</h1>
-        <p class="wills-trusts__info-text"> </p>
-        <p class="wills-trusts__info-text">A Will is an Estate planning tool that lets you decide how your assets will
-          be distributed upon death. Within a Will you must appoint a Personal Representative (Executor) to handle the
-          administration of your estate. The Executor will file your will with the probate court, file tax returns, pay
-          creditors, and distribute your assets to the beneficiaries in your will. Minor children can have a guardian
-          appointed for them within the will. A guardian will manage your assets, for the benefit of your children, if a
-          trust has not been established. </p>
-        <h1 class="title-section">Trusts</h1>
-        <p class="wills-trusts__info-text"> </p>
-        <p class="wills-trusts__info-text">Legal arrangements made by one person or an organization, that holds assets
-          for the benefit of another. Trusts serve a similar purpose to a will, but provide more flexibility and
-          options. There are many different kinds of trusts. Some of the most common are revocable trusts, which can be
-          revoked or amended at any time. The most notable benefit of a trust is the ability to avoid the probate
-          process. Similar to a will an administrator, called a trustee, must be appointed to manage the distribution of
-          your assets.</p>
-        <div class="wills-trusts__faq">
-          <div class="js-faq-item wills-trusts__faq-item">
-            <div class="js-faq-item-question wills-trusts__faq-item-question">
-              <p class="wills-trusts__faq-question">Revocable Trust / Living Trust</p><img
-                class="wills-trusts__faq-arrow" src="./img/icons/faq-arrow.svg" alt="arrow down">
+    <div class="contact-lower">
+      <div class="contact-lower__container">
+        <div class="contact-lower__wrap" data-aos="zoom-in">
+          <div class="contact-lower__info">
+            <img class="contact-lower__image lazy" data-src="./img/bequest-logo.png" alt="BEQUEST LAW LOGO">
+            <div class="contact-lower__address-wrap">
+              <p class="contact-lower__address">116-M Edwards Ferry Road NE <br> Leesburg, VA 20176 </p>
+              <div class="contact-lower__address contact-lower__address--small">
+                <a href="tel:(703) 443-2300">Local Phone: (703) 443-2300</a>
+              </div>
             </div>
-            <div class="js-faq-item-answer wills-trusts__faq-item-answer">
-              <p class="wills-trusts__faq-answer">A Revocable Trust or a Living Trust can be amended at any time. </p>
+            <div class="contact-lower__address-wrap">
+              <p class="contact-lower__address">CALL US:</p>
+              <div class="contact-lower__address contact-lower__address--big">
+                <a href="tel:(703) 443-2300">(703) 443-2300</a>
+              </div>
+            </div>
+            <div class="contact-lower__address-wrap">
+              <p class="contact-lower__address">EMAIL US:</p>
+              <div class="contact-lower__address contact-lower__address--medium">
+                <a href="mailto:advice@bequestlaw.com">advice@bequestlaw.com</a>
+              </div>
             </div>
           </div>
-          <div class="js-faq-item wills-trusts__faq-item">
-            <div class="js-faq-item-question wills-trusts__faq-item-question">
-              <p class="wills-trusts__faq-question">Irrevocable Trust</p><img class="wills-trusts__faq-arrow"
-                src="./img/icons/faq-arrow.svg" alt="arrow down">
+          <div class="contact-lower__form">
+            <h1 class="contact-lower__address contact-lower__address--form-title">Contact us today for a free case evaluation</h1>
+            <div class="contact-lower__form-wrap">
+              <input class="contact-lower__textbox contact-lower__textbox--small" id="name" type="text" name="name" placeholder="YOUR NAME*">
+              <input class="contact-lower__textbox contact-lower__textbox--small" id="phone" type="text" name="phone" placeholder="YOUR PHONE NUMBER*">
             </div>
-            <div class="js-faq-item-answer wills-trusts__faq-item-answer">
-              <p class="wills-trusts__faq-answer">An Irrevocable Trust cannot be amended which better protects your
-                assets than a revocable trust.</p>
+            <div class="contact-lower__form-wrap">
+              <input class="contact-lower__textbox contact-lower__textbox--small" id="email" type="email" name="email" placeholder="YOUR EMAIL*">
             </div>
-          </div>
-          <div class="js-faq-item wills-trusts__faq-item">
-            <div class="js-faq-item-question wills-trusts__faq-item-question">
-              <p class="wills-trusts__faq-question">Supplemental Needs Trust</p><img class="wills-trusts__faq-arrow"
-                src="./img/icons/faq-arrow.svg" alt="arrow down">
+            <div class="contact-lower__form-wrap">
+              <textarea class="contact-lower__textarea" id="inquiry" name="inquiry" ,="" cols="50" rows="50" placeholder="HOW CAN WE HELP YOU?"></textarea>
             </div>
-            <div class="js-faq-item-answer wills-trusts__faq-item-answer">
-              <p class="wills-trusts__faq-answer">A Supplemental Needs Trust allows a disabled person to receive money
-                without losing their eligibility for public benefit programs.</p>
-            </div>
-          </div>
-          <div class="js-faq-item wills-trusts__faq-item">
-            <div class="js-faq-item-question wills-trusts__faq-item-question">
-              <p class="wills-trusts__faq-question">Charitable Trust</p><img class="wills-trusts__faq-arrow"
-                src="./img/icons/faq-arrow.svg" alt="arrow down">
-            </div>
-            <div class="js-faq-item-answer wills-trusts__faq-item-answer">
-              <p class="wills-trusts__faq-answer">A Charitable Trust is a popular way to donate to charitable
-                organizations. A grantor can transfer assets such as money, real estate or art to a charitable trust,
-                and designate that they eventually be given to a specific organization.</p>
+            <div class="contact-lower__form-button-container">
+              <a class="button-contact" href="/">
+                <span>SEND US A MESSAGE</span>
+              </a>
             </div>
           </div>
         </div>
-        <div class="wills-trusts__diff">
-          <h1 class="primary title-heading">Differences Between a Will and Trust</h1>
-          <div class="wills-trusts__diff-wrap">
-            <div class="wills-trusts__diff-item">
-              <h1 class="title-section">Wills</h1>
-              <ul class="wills-trusts__list">
-                <li class="wills-trusts__list-item">Singular purpose of distributing assets </li>
-                <li class="wills-trusts__list-item">Goes into effect upon death</li>
-                <li class="wills-trusts__list-item">Must pass through court-supervised Probate</li>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__section">
+          <a href="#">
+            <img class="footer__image lazy" data-src="./img/bequest-logo.png" alt="BEQUEST LAW LOGO">
+          </a>
+          <p class="footer__about">Attorney Grossman uses a wide range of wills, trusts, and other estate planning instruments in coordination with your wishes, to assure that you’ll be able to effectively plan for your family’s secure, assured and protected future. From asset distribution plans to probate assistance, Attorney Grossman is here to help you and your family.</p>
+          <div class="footer__socmed">
+            <a class="fb" href="">
+              <img class="lazy" data-src="./img/icons/fb-logo.png" alt="Facebook">
+            </a>
+            <a class="twt" href="">
+              <img class="lazy" data-src="./img/icons/twitter-logo.png" alt="Twitter">
+            </a>
+            <a class="ig" href="">
+              <img class="lazy" data-src="./img/icons/ig-logo.png" alt="Instagram">
+            </a>
+            <a class="ln" href="">
+              <img class="lazy" data-src="./img/icons/ln-logo.png" alt="LinkedIn">
+            </a>
+            <a class="yt" href="">
+              <img class="lazy" data-src="./img/icons/yt-logo.png" alt="Youtube">
+            </a>
+          </div>
+        </div>
+        <div class="footer__section">
+          <div class="footer__title">IMPORTANT LINKS</div>
+          <ul class="footer__section-wrap">
+            <li class="footer__section-text">
+              <a href="#">Home</a>
+            </li>
+            <li class="footer__section-text">
+              <a href="#">About Us</a>
+            </li>
+            <li class="footer__section-text">
+              <p>Services</p>
+              <ul>
+                <li class="footer__section-text sublink">
+                  <a href="#">Wills &amp; Trusts</a>
+                </li>
+                <li class="footer__section-text sublink">
+                  <a href="#">Probate and Trust Administration</a>
+                </li>
+                <li class="footer__section-text sublink">
+                  <a href="#">Elder Law Planning</a>
+                </li>
+                <li class="footer__section-text sublink">
+                  <a href="#">Bequest</a>
+                </li>
+                <li class="footer__section-text sublink">
+                  <a href="#">Business</a>
+                </li>
+                <li class="footer__section-text sublink">
+                  <a href="#">Equine</a>
+                </li>
               </ul>
-            </div>
-            <div class="wills-trusts__diff-item">
-              <h1 class="title-section">Trust</h1>
-              <ul class="wills-trusts__list">
-                <li class="wills-trusts__list-item">Has more flexibility than a will</li>
-                <li class="wills-trusts__list-item">Can go into effect while alive, upon death, or thereafter</li>
-                <li class="wills-trusts__list-item">Normally does not pass through court-supervised probate</li>
-                <li class="wills-trusts__list-item">Private due to the lack of the open probate process</li>
-                <li class="wills-trusts__list-item">Multiple types of Trusts</li>
-              </ul>
-            </div>
+            </li>
+            <li class="footer__section-text">
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <div class="footer__title">BEQUEST LAW</div>
+          <div class="footer__section-wrap">
+            <a class="footer__contact" href="tel: (703) 443-2300">
+              <img class="lazy" data-src="./img/icons/tel-logo.png" alt="BEQUEST LAW LOGO">
+              <p class="footer__section-text">(703) 443-2300</p>
+            </a>
+            <a class="footer__contact" href="mailto: wgrossman@bequestlaw.com">
+              <img class="lazy" data-src="./img/icons/mail-logo.png" alt="BEQUEST LAW LOGO">
+              <div class="footer__section-text">wgrossman@bequestlaw.com</div>
+            </a>
+            <a class="footer__contact" href="#">
+              <img class="lazy" data-src="./img/icons/location-logo.png" alt="BEQUEST LAW LOGO">
+              <p class="footer__section-text">116-M Edwards Ferry Road NE <br>Leesburg, VA 20176 <br>
+                <br>
+                <span class="underline">GET DIRECTIONS</span>
+              </p>
+            </a>
           </div>
         </div>
       </div>
-      <div class="wills-trusts__image-container">
-        <div class="wills-trusts__image"><img src="./img/equine.jpg"></div>
-        <div class="wills-trusts__title-wrap">
-          <div class="title-question">Frequently Asked <br>Questions</div>
-          <div class="wills-trusts__faq wills-trusts__faq--small">
-            <div class="js-faq-item wills-trusts__faq-item wills-trusts__faq-item--small">
-              <div class="js-faq-item-question wills-trusts__faq-item-question">
-                <p class="wills-trusts__faq-question wills-trusts__faq-question--small">DO I NEED A WILL?</p><img
-                  class="wills-trusts__faq-arrow wills-trusts__faq-arrow--small" src="./img/icons/faq-arrow.svg"
-                  alt="arrow down">
-              </div>
-              <div class="js-faq-item-answer wills-trusts__faq-item-answer">
-                <p class="wills-trusts__faq-answer wills-trusts__faq-answer--small">A Will allows you to distribute your
-                  assets in accordance with your own wishes. It prevents the state courts from distributing your assets
-                  based on the default template.</p>
-              </div>
-            </div>
-          </div>
-          <div class="wills-trusts__faq wills-trusts__faq--small">
-            <div class="js-faq-item wills-trusts__faq-item wills-trusts__faq-item--small">
-              <div class="js-faq-item-question wills-trusts__faq-item-question">
-                <p class="wills-trusts__faq-question wills-trusts__faq-question--small">WHAT KIND OF TRUST DO I NEED?
-                </p><img class="wills-trusts__faq-arrow wills-trusts__faq-arrow--small" src="./img/icons/faq-arrow.svg"
-                  alt="arrow down">
-              </div>
-              <div class="js-faq-item-answer wills-trusts__faq-item-answer">
-                <p class="wills-trusts__faq-answer wills-trusts__faq-answer--smallThe">The type of trust will be
-                  determined based on your individual needs. This could include a supplemental needs trust for a
-                  disabled family member or a trust for the educational needs of children.</p>
-              </div>
-            </div>
-          </div>
-          <div class="wills-trusts__faq wills-trusts__faq--small">
-            <div class="js-faq-item wills-trusts__faq-item wills-trusts__faq-item--small">
-              <div class="js-faq-item-question wills-trusts__faq-item-question">
-                <p class="wills-trusts__faq-question wills-trusts__faq-question--small">WHAT HAPPENS IF I DIE WITHOUT A
-                  WILL ?</p><img class="wills-trusts__faq-arrow wills-trusts__faq-arrow--small"
-                  src="./img/icons/faq-arrow.svg" alt="arrow down">
-              </div>
-              <div class="js-faq-item-answer wills-trusts__faq-item-answer">
-                <p class="wills-trusts__faq-answer wills-trusts__faq-answer--small">If you die intestate (without a
-                  will), Virginia laws will determine who receives your property by default. </p>
-              </div>
-            </div>
-          </div>
-          <div class="wills-trusts__faq wills-trusts__faq--small">
-            <div class="js-faq-item wills-trusts__faq-item wills-trusts__faq-item--small">
-              <div class="js-faq-item-question wills-trusts__faq-item-question">
-                <p class="wills-trusts__faq-question wills-trusts__faq-question--small">WHAT DOES A WILL NOT DO?</p><img
-                  class="wills-trusts__faq-arrow wills-trusts__faq-arrow--small" src="./img/icons/faq-arrow.svg"
-                  alt="arrow down">
-              </div>
-              <div class="js-faq-item-answer wills-trusts__faq-item-answer">
-                <p class="wills-trusts__faq-answer wills-trusts__faq-answer--small">A Will does not dictate the
-                  distribution of certain types of assets. These are called non-probate property and will pass to
-                  someone other than your estate on your death.</p>
-              </div>
-            </div>
-          </div>
-          <div class="wills-trusts__faq wills-trusts__faq--small">
-            <div class="js-faq-item wills-trusts__faq-item wills-trusts__faq-item--small">
-              <div class="js-faq-item-question wills-trusts__faq-item-question">
-                <p class="wills-trusts__faq-question wills-trusts__faq-question--small">CAN I REVOKE OR CANCEL MY LIVING
-                  TRUST?</p><img class="wills-trusts__faq-arrow wills-trusts__faq-arrow--small"
-                  src="./img/icons/faq-arrow.svg" alt="arrow down">
-              </div>
-              <div class="js-faq-item-answer wills-trusts__faq-item-answer">
-                <p class="wills-trusts__faq-answer wills-trusts__faq-answer--small">A living trust is revocable up to
-                  and before death. After death the living trust is now irrevocable.</p>
-              </div>
-            </div>
-          </div>
+      <div class="footer__copyright">
+        <div class="footer__copyright-wrapper">
+          <p class="footer__copyright-text">Copyright © 2021 Bequest Law with Attorney Warren Grossman All Rights Reserved </p>
+          <a class="footer__copyright-text" href="/">Disclaimer</a>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="contact-lower">
-    <div class="contact-lower__container">
-      <div class="contact-lower__wrap">
-        <div class="contact-lower__info"><img class="contact-lower__image" src="./img/bequest-logo.png"
-            alt="BEQUEST LAW LOGO">
-          <div class="contact-lower__address-wrap">
-            <p class="contact-lower__address">116-M Edwards Ferry Road NE <br> Leesburg, VA 20176</p>
-            <div class="contact-lower__address contact-lower__address--small"> <a href="tel:(703) 443-2300">Local Phone:
-                (703) 443-2300</a></div>
-          </div>
-          <div class="contact-lower__address-wrap">
-            <p class="contact-lower__address">CALL US:</p>
-            <div class="contact-lower__address contact-lower__address--big"> <a href="tel:(703) 443-2300">(703)
-                443-2300</a></div>
-          </div>
-          <div class="contact-lower__address-wrap">
-            <p class="contact-lower__address">EMAIL US:</p>
-            <div class="contact-lower__address contact-lower__address--medium"> <a
-                href="mailto:advice@bequestlaw.com">advice@bequestlaw.com</a></div>
-          </div>
+    </footer>
+    <div class="response">
+      <a class="response__wrapper" href="#">
+        <h1 class="response__text">Coronavirus Update</h1>
+        <div class="response__logo">
+          <img class="lazy" data-src="./img/warning.png" alt="">
         </div>
-        <div class="contact-lower__form">
-          <h1 class="contact-lower__address contact-lower__address--form-title">Contact us today for a free case
-            evaluation</h1>
-          <div class="contact-lower__form-wrap"> <input class="contact-lower__textbox contact-lower__textbox--small"
-              id="name" type="text" name="name" placeholder="YOUR NAME*"> <input
-              class="contact-lower__textbox contact-lower__textbox--small" id="phone" type="text" name="phone"
-              placeholder="YOUR PHONE NUMBER*"> </div>
-          <div class="contact-lower__form-wrap"> <input class="contact-lower__textbox contact-lower__textbox--small"
-              id="email" type="email" name="email" placeholder="YOUR EMAIL*"> </div>
-          <div class="contact-lower__form-wrap"><textarea class="contact-lower__textarea" id="inquiry" name="inquiry"
-              ,="" cols="50" rows="50" placeholder="HOW CAN WE HELP YOU?"></textarea></div>
-          <div class="contact-lower__form-button-container"><a class="button-contact" href="/"><span>SEND US A
-                MESSAGE</span></a></div>
-        </div>
-      </div>
+        <h1 class="response__text">Our Response</h1>
+      </a>
     </div>
-  </div>
-  <footer class="footer">
-    <div class="footer__container">
-      <div class="footer__section"><a href="#"><img class="footer__image" src="./img/bequest-logo.png"
-            alt="BEQUEST LAW LOGO"></a>
-        <p class="footer__about">Attorney Grossman uses a wide range of wills, trusts, and other estate planning
-          instruments in coordination with your wishes, to assure that you’ll be able to effectively plan for your
-          family’s secure, assured and protected future. From asset distribution plans to probate assistance, Attorney
-          Grossman is here to help you and your family.</p>
-        <div class="footer__socmed"><a class="fb" href=""><img src="./img/icons/fb-logo.png" alt="Facebook"></a><a
-            class="twt" href=""><img src="./img/icons/twitter-logo.png" alt="Twitter"></a><a class="ig" href=""><img
-              src="./img/icons/ig-logo.png" alt="Instagram"></a><a class="ln" href=""><img src="./img/icons/ln-logo.png"
-              alt="LinkedIn"></a><a class="yt" href=""> <img src="./img/icons/yt-logo.png" alt="Youtube"></a></div>
-      </div>
-      <div class="footer__section">
-        <div class="footer__title">IMPORTANT LINKS</div>
-        <ul class="footer__section-wrap">
-          <li class="footer__section-text"><a href="#">Home</a></li>
-          <li class="footer__section-text"><a href="#">About Us</a></li>
-          <li class="footer__section-text">
-            <p>Services</p>
-            <ul>
-              <li class="footer__section-text sublink"><a href="#">Wills &amp; Trusts</a></li>
-              <li class="footer__section-text sublink"><a href="#">Probate and Trust Administration</a></li>
-              <li class="footer__section-text sublink"><a href="#">Elder Law Planning</a></li>
-              <li class="footer__section-text sublink"><a href="#">Bequest</a></li>
-              <li class="footer__section-text sublink"><a href="#">Business</a></li>
-              <li class="footer__section-text sublink"><a href="#">Equine</a></li>
-            </ul>
-          </li>
-          <li class="footer__section-text"><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="footer__section">
-        <div class="footer__title">BEQUEST LAW</div>
-        <div class="footer__section-wrap"><a class="footer__contact" href="tel: (703) 443-2300"> <img
-              src="./img/icons/tel-logo.png" alt="BEQUEST LAW LOGO">
-            <p class="footer__section-text">(703) 443-2300</p>
-          </a><a class="footer__contact" href="mailto: wgrossman@bequestlaw.com"> <img src="./img/icons/mail-logo.png"
-              alt="BEQUEST LAW LOGO">
-            <div class="footer__section-text">wgrossman@bequestlaw.com</div>
-          </a><a class="footer__contact" href="#"> <img src="./img/icons/location-logo.png" alt="BEQUEST LAW LOGO">
-            <p class="footer__section-text">116-M Edwards Ferry Road NE<br>Leesburg, VA 20176<br><br><span
-                class="underline">GET DIRECTIONS</span></p>
-          </a></div>
-      </div>
-    </div>
-    <div class="footer__copyright">
-      <div class="footer__copyright-wrapper">
-        <p class="footer__copyright-text">Copyright © 2021 Bequest Law with Attorney Warren Grossman All Rights Reserved
-        </p><a class="footer__copyright-text" href="/">Disclaimer</a>
-      </div>
-    </div>
-  </footer>
-  <div class="response"> <a class="response__wrapper" href="#">
-      <h1 class="response__text">Coronavirus Update</h1>
-      <div class="response__logo"><img src="./img/warning.png" alt=""></div>
-      <h1 class="response__text">Our Response</h1>
-    </a></div>
-  <script src="/ofi.min.8e98ee7a.js"></script>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
-  <script src="./js/index.js"></script>
-</body>
-
+    <script src="/ofi.min.8e98ee7a.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+      new LazyLoad;
+    </script>
+  </body>
 </html>

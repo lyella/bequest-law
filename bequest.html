@@ -1,212 +1,283 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=11">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-  <title></title>
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin>
-</head>
-
-<body>
-  <header class="header"> <a class="header__logo" href="https://bequestlaw.com/https://bequestlaw.com/"><img
-        src="./img/bequest-logo.png" alt="Bequest Law Estatate Planning Firm Logo"></a>
-    <div class="header-menu__btn js-header-menu__btn">
-      <div class="header-menu__btn-shape"></div>
-      <div class="header-menu__btn-shape"></div>
-      <div class="header-menu__btn-shape"></div>
-    </div>
-    <div class="header-nav"><a class="header-nav__link" href="">
-        <p>HOME</p>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin>
+    <title></title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="https://bequestlaw.com/https://bequestlaw.com/">
+        <img class="lazy" data-src="./img/bequest-logo.png" alt="Bequest Law Estatate Planning Firm Logo">
       </a>
-      <div class="header-nav__link">
-        <p>SERVICES </p>
-        <div class="arrow"></div>
-        <div class="header-nav__submenu">
-          <div class="header-nav__submenu-link-container"><a class="header-nav__submenu-link" href="">
-              <h3>Wills and Trusts</h3>
-            </a><a class="header-nav__submenu-link" href="">
-              <h3>Probate and Trust Administration</h3>
-            </a><a class="header-nav__submenu-link" href="">
-              <h3>Elder Law Planning</h3>
-            </a><a class="header-nav__submenu-link" href="">
-              <h3>Bequest</h3>
-            </a><a class="header-nav__submenu-link" href="">
-              <h3>Business</h3>
-            </a><a class="header-nav__submenu-link" href="">
-              <h3>Equine</h3>
-            </a></div>
+      <div class="header-menu__btn js-header-menu__btn">
+        <div class="header-menu__btn-shape"></div>
+        <div class="header-menu__btn-shape"></div>
+        <div class="header-menu__btn-shape"></div>
+      </div>
+      <div class="header-nav">
+        <a class="header-nav__link" href="">
+          <p>HOME</p>
+        </a>
+        <div class="header-nav__link">
+          <p>SERVICES </p>
+          <div class="arrow"></div>
+          <div class="header-nav__submenu">
+            <div class="header-nav__submenu-link-container">
+              <a class="header-nav__submenu-link" href="">
+                <h3>Wills and Trusts</h3>
+              </a>
+              <a class="header-nav__submenu-link" href="">
+                <h3>Probate and Trust Administration</h3>
+              </a>
+              <a class="header-nav__submenu-link" href="">
+                <h3>Elder Law Planning</h3>
+              </a>
+              <a class="header-nav__submenu-link" href="">
+                <h3>Bequest</h3>
+              </a>
+              <a class="header-nav__submenu-link" href="">
+                <h3>Business</h3>
+              </a>
+              <a class="header-nav__submenu-link" href="">
+                <h3>Equine</h3>
+              </a>
+            </div>
+          </div>
         </div>
-      </div><a class="header-nav__link" href="">
-        <p>ABOUT US</p>
-      </a><a class="header-nav__link" href="">
-        <p>CONTACT US</p>
+        <a class="header-nav__link" href="">
+          <p>ABOUT US</p>
+        </a>
+        <a class="header-nav__link" href="">
+          <p>CONTACT US</p>
+        </a>
+        <div class="header-nav__link">
+          <div class="header__search">
+            <form class="group searchform">
+              <input id="search-box" type="search" placeholder="SEARCH">
+              <label for="search-box">
+                <span class="fa fa-search"></span>
+              </label>
+            </form>
+          </div>
+        </div>
+        <a class="header-nav__link" href="tel:703-731-9510">
+          <div class="header__consultation">
+            <h3 class="header__consultation-text">FREE CONSULTATION </h3>
+            <h5 class="header__consultation-num">703-731-9510</h5>
+          </div>
+        </a>
+      </div>
+      <div class="header-menu js-header-menu">
+        <a class="header-menu__contacts" href="tel:703-731-9510">
+          <div class="header__consultation">
+            <h3 class="header__consultation-text">FREE CONSULTATION </h3>
+            <h5 class="header__consultation-num">703-731-9510</h5>
+          </div>
+        </a>
+        <a class="header-menu__link" href="">HOME</a>
+        <div class="header-menu__dropdown">
+          <div class="header-menu__dropdown-item js-sub-item">
+            <div class="header-menu__dropdown-link js-link-item">
+              <div class="header-menu__link header-menu__link--dropdown">SERVICES</div>
+              <img class="wills-trusts__faq-arrow wills-trusts__faq-arrow--small" src="/img\icons\faq-arrow.svg" alt="arrow down">
+            </div>
+            <div class="header-menu__sub-link">
+              <a class="header-menu__link header-menu__link--sub" href="">Wills and Trusts</a>
+              <a class="header-menu__link header-menu__link--sub" href="">Probate and Trust Administration</a>
+              <a class="header-menu__link header-menu__link--sub" href="">Elder Law Planning</a>
+              <a class="header-menu__link header-menu__link--sub" href="">Bequest</a>
+              <a class="header-menu__link header-menu__link--sub" href="">Business</a>
+              <a class="header-menu__link header-menu__link--sub" href="">Equine</a>
+            </div>
+          </div>
+        </div>
+        <a class="header-menu__link" href="">ABOUT US</a>
+        <a class="header-menu__link" href="">CONTACT US</a>
+        <div class="header-menu__link">
+          <div class="header__search">
+            <form class="searchform">
+              <input id="search-box" type="search" placeholder="SEARCH">
+              <label for="search-box">
+                <span class="fa fa-search"></span>
+              </label>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="bequest">
+      <div class="title-subheading" data-aos="zoom-in">
+        <h1>bequest</h1>
+      </div>
+      <div class="bequest__wrapper">
+        <div class="bequest__info" data-aos="fade-right">
+          <h1 class="title-section">Bequest Law</h1>
+          <p class="bequest__info-text"></p>
+          <p class="bequest__info-text">Bequest Law offers complete estate planning and probate services to Loudoun County, Virginia and the surrounding areas. Warren Grossman concentrates in helping clients provide for their spouse and family. You have worked hard for the assets you have accumulated. Let Mr. Grossman assist you in implementing a comprehensive plan that will protect you and your family now and for the future which may possibly provide for charities and pets. The plan is implemented by the proper use of trusts, wills, powers of attorney, gifting and tax planning. Warren Grossman is dedicated to protecting his clients’ rights and accomplishing their objectives.</p>
+        </div>
+        <div class="bequest__image-container" data-aos="fade-left">
+          <img class="lazy" data-src="./img/equine.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="contact-lower">
+      <div class="contact-lower__container">
+        <div class="contact-lower__wrap" data-aos="zoom-in">
+          <div class="contact-lower__info">
+            <img class="contact-lower__image lazy" data-src="./img/bequest-logo.png" alt="BEQUEST LAW LOGO">
+            <div class="contact-lower__address-wrap">
+              <p class="contact-lower__address">116-M Edwards Ferry Road NE <br> Leesburg, VA 20176 </p>
+              <div class="contact-lower__address contact-lower__address--small">
+                <a href="tel:(703) 443-2300">Local Phone: (703) 443-2300</a>
+              </div>
+            </div>
+            <div class="contact-lower__address-wrap">
+              <p class="contact-lower__address">CALL US:</p>
+              <div class="contact-lower__address contact-lower__address--big">
+                <a href="tel:(703) 443-2300">(703) 443-2300</a>
+              </div>
+            </div>
+            <div class="contact-lower__address-wrap">
+              <p class="contact-lower__address">EMAIL US:</p>
+              <div class="contact-lower__address contact-lower__address--medium">
+                <a href="mailto:advice@bequestlaw.com">advice@bequestlaw.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-lower__form">
+            <h1 class="contact-lower__address contact-lower__address--form-title">Contact us today for a free case evaluation</h1>
+            <div class="contact-lower__form-wrap">
+              <input class="contact-lower__textbox contact-lower__textbox--small" id="name" type="text" name="name" placeholder="YOUR NAME*">
+              <input class="contact-lower__textbox contact-lower__textbox--small" id="phone" type="text" name="phone" placeholder="YOUR PHONE NUMBER*">
+            </div>
+            <div class="contact-lower__form-wrap">
+              <input class="contact-lower__textbox contact-lower__textbox--small" id="email" type="email" name="email" placeholder="YOUR EMAIL*">
+            </div>
+            <div class="contact-lower__form-wrap">
+              <textarea class="contact-lower__textarea" id="inquiry" name="inquiry" ,="" cols="50" rows="50" placeholder="HOW CAN WE HELP YOU?"></textarea>
+            </div>
+            <div class="contact-lower__form-button-container">
+              <a class="button-contact" href="/">
+                <span>SEND US A MESSAGE</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__section">
+          <a href="#">
+            <img class="footer__image lazy" data-src="./img/bequest-logo.png" alt="BEQUEST LAW LOGO">
+          </a>
+          <p class="footer__about">Attorney Grossman uses a wide range of wills, trusts, and other estate planning instruments in coordination with your wishes, to assure that you’ll be able to effectively plan for your family’s secure, assured and protected future. From asset distribution plans to probate assistance, Attorney Grossman is here to help you and your family.</p>
+          <div class="footer__socmed">
+            <a class="fb" href="">
+              <img class="lazy" data-src="./img/icons/fb-logo.png" alt="Facebook">
+            </a>
+            <a class="twt" href="">
+              <img class="lazy" data-src="./img/icons/twitter-logo.png" alt="Twitter">
+            </a>
+            <a class="ig" href="">
+              <img class="lazy" data-src="./img/icons/ig-logo.png" alt="Instagram">
+            </a>
+            <a class="ln" href="">
+              <img class="lazy" data-src="./img/icons/ln-logo.png" alt="LinkedIn">
+            </a>
+            <a class="yt" href="">
+              <img class="lazy" data-src="./img/icons/yt-logo.png" alt="Youtube">
+            </a>
+          </div>
+        </div>
+        <div class="footer__section">
+          <div class="footer__title">IMPORTANT LINKS</div>
+          <ul class="footer__section-wrap">
+            <li class="footer__section-text">
+              <a href="#">Home</a>
+            </li>
+            <li class="footer__section-text">
+              <a href="#">About Us</a>
+            </li>
+            <li class="footer__section-text">
+              <p>Services</p>
+              <ul>
+                <li class="footer__section-text sublink">
+                  <a href="#">Wills &amp; Trusts</a>
+                </li>
+                <li class="footer__section-text sublink">
+                  <a href="#">Probate and Trust Administration</a>
+                </li>
+                <li class="footer__section-text sublink">
+                  <a href="#">Elder Law Planning</a>
+                </li>
+                <li class="footer__section-text sublink">
+                  <a href="#">Bequest</a>
+                </li>
+                <li class="footer__section-text sublink">
+                  <a href="#">Business</a>
+                </li>
+                <li class="footer__section-text sublink">
+                  <a href="#">Equine</a>
+                </li>
+              </ul>
+            </li>
+            <li class="footer__section-text">
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <div class="footer__title">BEQUEST LAW</div>
+          <div class="footer__section-wrap">
+            <a class="footer__contact" href="tel: (703) 443-2300">
+              <img class="lazy" data-src="./img/icons/tel-logo.png" alt="BEQUEST LAW LOGO">
+              <p class="footer__section-text">(703) 443-2300</p>
+            </a>
+            <a class="footer__contact" href="mailto: wgrossman@bequestlaw.com">
+              <img class="lazy" data-src="./img/icons/mail-logo.png" alt="BEQUEST LAW LOGO">
+              <div class="footer__section-text">wgrossman@bequestlaw.com</div>
+            </a>
+            <a class="footer__contact" href="#">
+              <img class="lazy" data-src="./img/icons/location-logo.png" alt="BEQUEST LAW LOGO">
+              <p class="footer__section-text">116-M Edwards Ferry Road NE <br>Leesburg, VA 20176 <br>
+                <br>
+                <span class="underline">GET DIRECTIONS</span>
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="footer__copyright-wrapper">
+          <p class="footer__copyright-text">Copyright © 2021 Bequest Law with Attorney Warren Grossman All Rights Reserved </p>
+          <a class="footer__copyright-text" href="/">Disclaimer</a>
+        </div>
+      </div>
+    </footer>
+    <div class="response">
+      <a class="response__wrapper" href="#">
+        <h1 class="response__text">Coronavirus Update</h1>
+        <div class="response__logo">
+          <img class="lazy" data-src="./img/warning.png" alt="">
+        </div>
+        <h1 class="response__text">Our Response</h1>
       </a>
-      <div class="header-nav__link">
-        <div class="header__search">
-          <form class="group searchform"> <input id="search-box" type="search" placeholder="SEARCH"> <label
-              for="search-box"><span class="fa fa-search"></span></label> </form>
-        </div>
-      </div><a class="header-nav__link header-nav__link--dropdown" href="tel:703-731-9510">
-        <div class="header__consultation">
-          <h3 class="header__consultation-text">FREE CONSULTATION </h3>
-          <h5 class="header__consultation-num">703-731-9510</h5>
-        </div>
-      </a>
     </div>
-    <div class="header-menu js-header-menu"><a class="header-menu__contacts" href="tel:703-731-9510">
-        <div class="header__consultation">
-          <h3 class="header__consultation-text">FREE CONSULTATION </h3>
-          <h5 class="header__consultation-num">703-731-9510</h5>
-        </div>
-      </a><a class="header-menu__link" href="">HOME</a>
-      <div class="header-menu__dropdown">
-        <div class="header-menu__dropdown-item js-sub-item">
-          <div class="header-menu__dropdown-link js-link-item">
-            <div class="header-menu__link">SERVICES</div><img
-              class="wills-trusts__faq-arrow wills-trusts__faq-arrow--small" src="./img/icons/faq-arrow.svg"
-              alt="arrow down">
-          </div>
-          <div class="header-menu__sub-link"><a class="header-menu__link header-menu__link--sub" href="">Wills and
-              Trusts</a><a class="header-menu__link header-menu__link--sub" href="">Probate and Trust
-              Administration</a><a class="header-menu__link header-menu__link--sub" href="">Elder Law Planning</a><a
-              class="header-menu__link header-menu__link--sub" href="">Bequest</a><a
-              class="header-menu__link header-menu__link--sub" href="">Business</a><a
-              class="header-menu__link header-menu__link--sub" href="">Equine</a></div>
-        </div>
-      </div><a class="header-menu__link" href="">ABOUT US</a><a class="header-menu__link" href="">CONTACT US</a>
-      <div class="header-menu__link">
-        <div class="header__search">
-          <form class="searchform"> <input id="search-box" type="search" placeholder="SEARCH"> <label
-              for="search-box"><span class="fa fa-search"></span></label> </form>
-        </div>
-      </div>
-    </div>
-  </header>
-  <div class="bequest">
-    <div class="title-subheading">
-      <h1>bequest</h1>
-    </div>
-    <div class="bequest__wrapper">
-      <div class="bequest__info">
-        <h1 class="title-section">Bequest Law</h1>
-        <p class="bequest__info-text"> </p>
-        <p class="bequest__info-text">Bequest Law offers complete estate planning and probate services to Loudoun
-          County, Virginia and the surrounding areas. Warren Grossman concentrates in helping clients provide for their
-          spouse and family. You have worked hard for the assets you have accumulated. Let Mr. Grossman assist you in
-          implementing a comprehensive plan that will protect you and your family now and for the future which may
-          possibly provide for charities and pets. The plan is implemented by the proper use of trusts, wills, powers of
-          attorney, gifting and tax planning. Warren Grossman is dedicated to protecting his clients’ rights and
-          accomplishing their objectives.</p>
-      </div>
-      <div class="bequest__image-container"><img src="./img/equine.jpg"></div>
-    </div>
-  </div>
-  <div class="contact-lower">
-    <div class="contact-lower__container">
-      <div class="contact-lower__wrap">
-        <div class="contact-lower__info"><img class="contact-lower__image" src="./img/bequest-logo.png"
-            alt="BEQUEST LAW LOGO">
-          <div class="contact-lower__address-wrap">
-            <p class="contact-lower__address">116-M Edwards Ferry Road NE <br> Leesburg, VA 20176</p>
-            <div class="contact-lower__address contact-lower__address--small"> <a href="tel:(703) 443-2300">Local Phone:
-                (703) 443-2300</a></div>
-          </div>
-          <div class="contact-lower__address-wrap">
-            <p class="contact-lower__address">CALL US:</p>
-            <div class="contact-lower__address contact-lower__address--big"> <a href="tel:(703) 443-2300">(703)
-                443-2300</a></div>
-          </div>
-          <div class="contact-lower__address-wrap">
-            <p class="contact-lower__address">EMAIL US:</p>
-            <div class="contact-lower__address contact-lower__address--medium"> <a
-                href="mailto:advice@bequestlaw.com">advice@bequestlaw.com</a></div>
-          </div>
-        </div>
-        <div class="contact-lower__form">
-          <h1 class="contact-lower__address contact-lower__address--form-title">Contact us today for a free case
-            evaluation</h1>
-          <div class="contact-lower__form-wrap"> <input class="contact-lower__textbox contact-lower__textbox--small"
-              id="name" type="text" name="name" placeholder="YOUR NAME*"> <input
-              class="contact-lower__textbox contact-lower__textbox--small" id="phone" type="text" name="phone"
-              placeholder="YOUR PHONE NUMBER*"> </div>
-          <div class="contact-lower__form-wrap"> <input class="contact-lower__textbox contact-lower__textbox--small"
-              id="email" type="email" name="email" placeholder="YOUR EMAIL*"> </div>
-          <div class="contact-lower__form-wrap"><textarea class="contact-lower__textarea" id="inquiry" name="inquiry"
-              ,="" cols="50" rows="50" placeholder="HOW CAN WE HELP YOU?"></textarea></div>
-          <div class="contact-lower__form-button-container"><a class="button-contact" href="/"><span>SEND US A
-                MESSAGE</span></a></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer class="footer">
-    <div class="footer__container">
-      <div class="footer__section"><a href="#"><img class="footer__image" src="./img/bequest-logo.png"
-            alt="BEQUEST LAW LOGO"></a>
-        <p class="footer__about">Attorney Grossman uses a wide range of wills, trusts, and other estate planning
-          instruments in coordination with your wishes, to assure that you’ll be able to effectively plan for your
-          family’s secure, assured and protected future. From asset distribution plans to probate assistance, Attorney
-          Grossman is here to help you and your family.</p>
-        <div class="footer__socmed"><a class="fb" href=""><img src="./img/icons/fb-logo.png" alt="Facebook"></a><a
-            class="twt" href=""><img src="./img/icons/twitter-logo.png" alt="Twitter"></a><a class="ig" href=""><img
-              src="./img/icons/ig-logo.png" alt="Instagram"></a><a class="ln" href=""><img src="./img/icons/ln-logo.png"
-              alt="LinkedIn"></a><a class="yt" href=""> <img src="./img/icons/yt-logo.png" alt="Youtube"></a></div>
-      </div>
-      <div class="footer__section">
-        <div class="footer__title">IMPORTANT LINKS</div>
-        <ul class="footer__section-wrap">
-          <li class="footer__section-text"><a href="#">Home</a></li>
-          <li class="footer__section-text"><a href="#">About Us</a></li>
-          <li class="footer__section-text">
-            <p>Services</p>
-            <ul>
-              <li class="footer__section-text sublink"><a href="#">Wills &amp; Trusts</a></li>
-              <li class="footer__section-text sublink"><a href="#">Probate and Trust Administration</a></li>
-              <li class="footer__section-text sublink"><a href="#">Elder Law Planning</a></li>
-              <li class="footer__section-text sublink"><a href="#">Bequest</a></li>
-              <li class="footer__section-text sublink"><a href="#">Business</a></li>
-              <li class="footer__section-text sublink"><a href="#">Equine</a></li>
-            </ul>
-          </li>
-          <li class="footer__section-text"><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="footer__section">
-        <div class="footer__title">BEQUEST LAW</div>
-        <div class="footer__section-wrap"><a class="footer__contact" href="tel: (703) 443-2300"> <img
-              src="./img/icons/tel-logo.png" alt="BEQUEST LAW LOGO">
-            <p class="footer__section-text">(703) 443-2300</p>
-          </a><a class="footer__contact" href="mailto: wgrossman@bequestlaw.com"> <img src="./img/icons/mail-logo.png"
-              alt="BEQUEST LAW LOGO">
-            <div class="footer__section-text">wgrossman@bequestlaw.com</div>
-          </a><a class="footer__contact" href="#"> <img src="./img/icons/location-logo.png" alt="BEQUEST LAW LOGO">
-            <p class="footer__section-text">116-M Edwards Ferry Road NE<br>Leesburg, VA 20176<br><br><span
-                class="underline">GET DIRECTIONS</span></p>
-          </a></div>
-      </div>
-    </div>
-    <div class="footer__copyright">
-      <div class="footer__copyright-wrapper">
-        <p class="footer__copyright-text">Copyright © 2021 Bequest Law with Attorney Warren Grossman All Rights Reserved
-        </p><a class="footer__copyright-text" href="/">Disclaimer</a>
-      </div>
-    </div>
-  </footer>
-  <div class="response"> <a class="response__wrapper" href="#">
-      <h1 class="response__text">Coronavirus Update</h1>
-      <div class="response__logo"><img src="./img/warning.png" alt=""></div>
-      <h1 class="response__text">Our Response</h1>
-    </a></div>
-  <script src="/ofi.min.8e98ee7a.js"></script>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
-  <script src="./js/index.js"></script>
-</body>
-
+    <script src="/ofi.min.8e98ee7a.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.5.0/dist/lazyload.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+      new LazyLoad;
+    </script>
+  </body>
 </html>
